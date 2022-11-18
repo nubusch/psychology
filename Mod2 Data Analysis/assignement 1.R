@@ -41,7 +41,7 @@ bottom90    = mu - Z * (SD/sqrt(n))
 top99       = mu + Z2 * (SD/sqrt(n))
 bottom99    = mu - Z2 * (SD/sqrt(n))
 
-t.test(y)
+t.test(y, conf.level = 90)
 
 
 
